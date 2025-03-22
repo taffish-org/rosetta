@@ -1,0 +1,7 @@
+(:name           "rosetta")
+(:repo           "taffish-org/rosetta")
+(:author         "KaiyuanHan")
+(:version        "mk-387")
+(:intro          "RoseTTAFold: Accurate prediction of protein structures and interactions using a 3-track network.")
+(:dependencies)
+(:functions      "[Rosetta] & [PyRosetta]")

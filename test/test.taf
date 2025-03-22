@@ -1,0 +1,13 @@
++FLOW:blast-test
+ARGS
+    <file>
+        ::*LOAD-DIR*::../tafs/blast.taf
+    <cmd>
+        blastp
+    <in>
+        ::*LOAD-DIR*::at-prot-seqs.fasta
+    <dbin>
+        ::*LOAD-DIR*::p450-db.fasta
+RUN
+    <auto-flow>
+        taffish ::*LOAD-DIR*::../tafs/blast.taf --cmd ::cmd:: --dbin ::dbin:: --in ::in::

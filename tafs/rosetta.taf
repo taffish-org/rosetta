@@ -5,5 +5,5 @@ ARGS
     <main>
         echo '[Search commands]: ::find::'; ls --color=auto -F /usr/local/bin/ | grep --color=auto '::find::'
 RUN
-    <container:taf-rosetta-vml-387:ghcr.io/taffish-org/rosetta:ml-387>
+    <container:taf-rosetta-v387.ml:ghcr.io/taffish-org/rosetta:387.ml>
         ::*MAIN*::

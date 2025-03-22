@@ -1,7 +1,7 @@
 (:name           "rosetta")
 (:repo           "taffish-org/rosetta")
 (:author         "KaiyuanHan")
-(:version        "mk-387")
+(:version        "387.ml")
 (:intro          "Rosetta has been at the forefront of computational biology, offering groundbreaking capabilities in the modeling, design and analysis of protein structures.")
 (:dependencies)
 (:functions      "[Rosetta] & [PyRosetta]")

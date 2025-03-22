@@ -1,9 +1,9 @@
-# <rosetta:ml-387 | KaiyuanHan | 2025-03-22>
+# <rosetta:387.ml | KaiyuanHan | 2025-03-22>
 ARGS
     <else>
         echo '[All rosetta commands]:'; ls --color=auto -F /usr/local/bin/
     <main>
         echo '[Search commands]: ::find::'; ls --color=auto -F /usr/local/bin/ | grep --color=auto '::find::'
 RUN
-    <container:taf-rosetta-vml-387:ghcr.io/taffish-org/rosetta:ml-387>
+    <container:taf-rosetta-v387.ml:ghcr.io/taffish-org/rosetta:387.ml>
         ::*MAIN*::
